@@ -1,86 +1,105 @@
 body {
-    margin: 0;
-    background-color: #88D8D3;
-    background-size: cover;
-    
+  margin: 0;
+  background-color: #88d8d3;
+  background-size: cover;
 }
 
 /*--------------------------BARRE DE NAVIGATION------------------*/
 
 nav {
-    display: flex;
-    
+  display: flex;
 }
 
 nav a {
-    display:block;
-    width: 100%;
-    background-color: #DADD39;
-    text-align: center;
-    box-sizing: border-box;
-    padding:20px;
-    margin: 1px;
-    text-decoration: none;
-    color: black;
-    transition: all 0.3s ease;
-    font-family: 'Chonburi', cursive;
-
+  display: block;
+  width: 100%;
+  background-color: #dadd39;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 1px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+  font-family: 'Chonburi', cursive;
 }
 
 nav a:hover {
-    background-color: white;
-    transition: all 0.3s ease;
+  background-color: white;
+  transition: all 0.3s ease;
 }
 
-#checkbox{ 
-    display:none;}
+#checkbox {
+  display: none;
+}
 
-#lab{
-    width: 30px;
-    height: 30px;
-    background: linear-gradient(#FFF 0%, #FFF 20%, transparent 21%, transparent 40%, #FFF 41%, #FFF 60%, transparent 61%, transparent 80%, #FFF 81%, #FFF 100% );
-    margin: 4px;
-    display: none;
+#lab {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(
+    #fff 0%,
+    #fff 20%,
+    transparent 21%,
+    transparent 40%,
+    #fff 41%,
+    #fff 60%,
+    transparent 61%,
+    transparent 80%,
+    #fff 81%,
+    #fff 100%
+  );
+  margin: 4px;
+  display: none;
 }
 
 @media all and (max-width: 960px) {
-    nav{ 
-        display:block; 
-        position: absolute;
-        left:0;
-        right:0;
-        transform:translate(-1000px,0);
-        transition: all 0.5s ease;
-    }
-    nav a {
-        width: auto;
-    }
-    #checkbox:checked+nav{
-        transform:translate(0,0);
-        transition: all 0.5s ease;
-    }
-    #lab{
-        display:block;
-    }
+  nav {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translate(-1000px, 0);
+    transition: all 0.5s ease;
+  }
+  nav a {
+    width: auto;
+  }
+  #checkbox:checked + nav {
+    transform: translate(0, 0);
+    transition: all 0.5s ease;
+  }
+  #lab {
+    display: block;
+  }
 }
-
-
 
 /* -------------------------------------Logo-------------------------------------*/
 
-
-.logo{
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
+.logo {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*-----------------------------------Body---------------------------------------*/
 
 h1 {
-    font-size: 100px;
-    text-align: center;
-    font-family: 'Chonburi', cursive;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Chonburi', cursive;
 }
 
+img {
+  height: 300px;
+  width: 300px;
+}
+
+p {
+  width: 300px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
