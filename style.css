@@ -84,3 +84,15 @@ h1 {
     font-family: 'Chonburi', cursive;
 }
 
+img {
+    height: 300px;
+    width: 300px;
+}
+
+
+p { width: 300px;}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
