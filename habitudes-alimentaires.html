@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HABITUDES ALIMENTAIRES</title>
+    <link href="habitudes-alimentaires.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!--------------BARRE DE NAVIGATION--------------------->
+
+  <label for="checkbox" id="lab"> </label>
+  <input type="checkbox" id="checkbox" />
+  <nav>
+    <a href="index.html">ACCUEIL</a>
+    <a href="www.google.fr">SANTE PHYSIQUE</a>
+    <a href="www.google.fr">BIEN ETRE</a>
+    <a href="habitudes-alimentaires.html">HABITUDE ALIMENTAIRE</a>
+    <a href="vie-sociale.html">VIE SOCIALE</a>
+  </nav>
+
+  <!-------------------------BODY---------------------------->
+
+  <body>
+    <h1>HABITUDES ALIMENTAIRES</h1>
+
+    <!-------GENERATEUR DE PHRASE----------->
+    <h2>Pas d’idées de repas aujourd'hui ?</h2>
+    <p>Pas de panique. Génère un repas équilibré (ou pas) !</p>
+
+    <div class="flex-container">
+      <td>
+        <select name="legumes" id="legSelect" size="8">
+          <option value="carottes" selected>carottes</option>
+          <option value="brocoli">brocoli</option>
+          <option value="poireau">poireau</option>
+          <option value="betterave">betterave</option>
+          <option value="laitue">laitue</option>
+          <option value="haricots verts">haricots verts</option>
+          <option value="épinards">épinards</option>
+          <option value="aubergine">aubergine</option>
+        </select>
+
+        <select name="fruits" id="fruSelect" size="8">
+          <option value="pomme" selected>pomme</option>
+          <option value="banane">banane</option>
+          <option value="mangue">mangue</option>
+          <option value="orange">orange</option>
+          <option value="mandarine">mandarine</option>
+          <option value="kiwi">kiwi</option>
+          <option value="fraise">fraise</option>
+          <option value="poire">poire</option>
+        </select>
+
+        <select name="feculents" id="fecSelect" size="8">
+          <option value="pain" selected>pain</option>
+          <option value="pâtes">pâtes</option>
+          <option value="riz">riz</option>
+          <option value="pommes de terre">pommes de terre</option>
+          <option value="patates douces">patates douces</option>
+          <option value="galettes">galettes</option>
+          <option value="old el paso">old el paso</option>
+          <option value="lentilles">lentilles</option>
+        </select>
+
+        <select name="dessert" id="desSelect" size="8">
+          <option value="compote" selected>compote</option>
+          <option value="danette">danette</option>
+          <option value="pavlova">pavlova</option>
+          <option value="glace">glace</option>
+          <option value="éclair">éclair</option>
+          <option value="religieuse">religieuse</option>
+          <option value="paris-brest">paris-brest</option>
+          <option value="mousse au chocolat">mousse au chocolat</option>
+        </select>
+
+        <select name="fromages" id="froSelect" size="8">
+          <option value="cervelle de canut" selected>cervelle de canut</option>
+          <option value="babybel">babybel</option>
+          <option value="roquefort">roquefort</option>
+          <option value="saint marcellin">saint marcellin</option>
+          <option value="saint félicien">saint félicien</option>
+          <option value="camembert">camembert</option>
+          <option value="comté">comté</option>
+          <option value="pélardon">pélardon</option>
+        </select>
+
+        <select name="protéines" id="proSelect" size="8">
+          <option value="steak haché" selected>steak haché</option>
+          <option value="saumon">saumon</option>
+          <option value="poulet rôti">poulet rôti</option>
+          <option value="quenelles">quenelles</option>
+          <option value="côte de porc">côte de porc</option>
+          <option value="saucisses">saucisses</option>
+          <option value="merguez">merguez</option>
+          <option value="thon cuit">thon cuit</option>
+        </select>
+      </td>
+    </div>
+
+    <div id="bouton1">
+      <input type="button" id="GenererRepas" value="Générer un repas !" />
+    </div>
+
+    <!-----------RESTAURATEUR----------->
+    <h2>Pas envie de cuisiner ?</h2>
+    <p>Ces restaurateurs restent disponible autour de chez toi</p>
+
+    <div class="lienRestaurateur">
+      <p>
+        <a href="https://www.mcdonalds.fr/" target="_blank"
+          ><img src="assets/mcdonalds" alt="mc do"
+        /></a>
+        <a href="https://www.burgerking.fr/" target="_blank"
+          ><img src="assets/burgerking.png" alt="burgerking"
+        /></a>
+        <a href="https://www.kfc.fr/" target="_blank"
+          ><img src="assets/kfc.png" alt="kfc"
+        /></a>
+      </p>
+    </div>
+
+    <h2>La flemme de bouger ?</h2>
+    <p>Vous pouvez toujours vous faire livrer !</p>
+
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </p>
+
+    <!------------------charger le code JS---------------------->
+    <script src="index.js"></script>
+  </body>
+
+  <!-------------------------FOOTER---------------------------->
+  <footer>
+    <p>CONTACT</p>
+  </footer>
+</html>
