@@ -1,4 +1,4 @@
-/* ---------------- HEADER------------*/
+/* --------------------------- H-E-A-D-E-R----------------------------*/
 nav {
 	display: flex;
   
@@ -56,7 +56,7 @@ nav {
 	}
   }
 
-/*----------BIEN ETRE----------------*/
+/*-------------------------B-I-E-N--E-T-R-E----------------*/
 
 .intro {
 	width: 100%;
@@ -68,7 +68,7 @@ body {
 }
 
 #topTitle{
-	font-size: 30px;
+	font-size: 60px;
 }
 
 .theme {
@@ -89,6 +89,9 @@ main{
 	display: flex;
 	flex-direction: column;
 }
+
+
+
 .article{
 	display: flex;
 	flex-direction: row;
@@ -115,10 +118,11 @@ main{
 }
 aside {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 }
-/*----------FOOTER--------------------*/
+/*---------------------------F-O-O-T-E-R--------------------*/
 
 footer {
 	background-color: #EC6969;
