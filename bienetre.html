@@ -9,64 +9,111 @@
 </head>
 <body>
     <header> 
- <!--en attente fichier html et css tju -->
+        <label for="checkbox" id="lab"> </label>
+        <input type="checkbox" id="checkbox">
+        <nav>
+            <a href="index.html">ACCUEIL</a>
+            <a href="santé.physique.html">SANTE PHYSIQUE</a>
+            <a href="bienetre.html">BIEN ETRE</a>
+            <a href="habitudes-alimentaires.html">HABITUDE ALIMENTAIRE</a>
+            <a href="vie-sociale.html">VIE SOCIALE</a>
+          </nav>
+
     </header>
 
         <main>
-            <div class="intro"> <h1 id="topTitle"> Bien-Être </h1> <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." </br> "Il ny a personne qui naime la souffrance pour elle-même, qui ne la recherche et qui ne la veuille pour elle-même..." </p></div>  <!--Titre de la page et paragraphe d'intro -->
+            <div class="intro"> <h1 id="topTitle"> Bien-être </h1> <p> pour introduire la page <br > fonctionnement de la page explication rapide </p>
+            </div>  <!--Titre de la page et paragraphe d'intro -->
             
             <section class="container"> 
-                <h2> Sports</h2>
+                <h2 class="title"> Sports</h2>
                 <div class="article"> 
                    
-                         <div class="itemArticle"><h3>Yoga</h3><a href="https://www.youtube.com/watch?v=Z8In0I1WHFs"><img id="theme" src="assets/yoga.jpeg" alt="photo yoga"/></a> </div>
-                         <div class="itemArticle"><h3>Tai Chi</h3><a href="https://www.taijiquan.be/bienfaits"><img id="theme" src="assets/taichi.jpeg" alt="photo tai chi"/></a> </div>
-                         <div class="itemArticle"><h3>CrossFit</h3><a href="http://www.crossfit-gerland.com"><img id="theme" src="assets/crossfit.jpeg" alt="photo crossfit"/></a> </div>
+                         <div class="itemArticle"><h3>Yoga</h3><a href="https://www.youtube.com/watch?v=Z8In0I1WHFs"><img class="theme" src="assets/yoga.jpeg" alt="photo yoga"/></a> </div>
+                         <div class="itemArticle"><h3>Tai Chi</h3><a href="https://www.taijiquan.be/bienfaits"><img class="theme" src="assets/taichi.jpeg" alt="photo tai chi"/></a> </div>
+                         <div class="itemArticle"><h3>CrossFit</h3><a href="http://www.crossfit-gerland.com"><img class="theme" src="assets/crossfit.jpeg" alt="photo crossfit"/></a> </div>
                     
                 </div> 
             </section> <!--Rubrique 1 Sports : sous categories (yoga, taichi, crossfit)-->
             
             <section class="container" > 
-                <h2> Mindset </h2>
+                <h2 class="title"> Mindset </h2>
                 <div class="article"> 
                     
-                        <div class="itemArticle"> <h3>Sommeil</h3><a href="https://franceinsomnie.fr/10-conseils-pour-mieux-dormir/"> <img id="theme" src="assets/sommeil.jpeg" alt="photo attrape reves"/></a> </div>
-                        <div class="itemArticle"> <h3>Motivation</h3><a href="https://www.youtube.com/watch?v=M2I7fxlINtA"> <img id="theme" src="assets/mind.jpeg" alt="image mind health"/></a> </div> 
-                        <div class="itemArticle"> <h3>Challenge</h3><a href="https://www.pinterest.fr/ilhamita/challenge-sportif/"><img id="theme" src="assets/challenge.jpeg" alt="photo volant"/></a> </div>
+                        <div class="itemArticle"> <h3>Sommeil</h3><a href="https://franceinsomnie.fr/10-conseils-pour-mieux-dormir/"> <img class="theme" src="assets/sommeil.jpeg" alt="photo attrape reves"/></a> </div>
+                        <div class="itemArticle"> <h3>Motivation</h3><a href="https://www.youtube.com/watch?v=M2I7fxlINtA"> <img class="theme" src="assets/mind.jpeg" alt="image mind health"/></a> </div> 
+                        <div class="itemArticle"> <h3>Challenge</h3><a href="https://www.pinterest.fr/ilhamita/challenge-sportif/"><img class="theme" src="assets/challenge.jpeg" alt="photo volant"/></a> </div>
                     
                 </div>
             </section> <!--Rubrique 2 Mindset : sous categories (sommeil, motivation, challenge)-->
            
-            <section class="container" > <h2>Care routine </h2>
+            <section class="container" > 
+                <h2 class="title">Routine </h2>
                 <div class="article">
                     
-                        <div class="itemArticle"> <h3>Skincare</h3><a href="https://www.beautybay.com/fr/l/skincare/"><img id="theme" src="assets/care.jpeg" alt="photo femme"/></a> </div>
-                        <div class="itemArticle"> <h3>Fleurs</h3><a href="https://www.futura-sciences.com/sante/dossiers/medecine-bien-etre-sante-nature-1491/page/4/"> <img id="theme" src="assets/plantes.jpeg" alt="photo fleurs"/></a> </div>
-                        <div class="itemArticle"> <h3>Outfit</h3><a href="https://www.bonnegueule.fr/back-to-basics-le-guide-dachat-essentiel-de-votre-garde-robe-masculine/"> <img id="theme" src="assets/outfit.jpeg" alt="photo outfit"/></a> </div>
+                        <div class="itemArticle"> <h3>Skincare</h3><a href="https://www.beautybay.com/fr/l/skincare/"><img class="theme" src="assets/care.jpeg" alt="photo femme"/></a> </div>
+                        <div class="itemArticle"> <h3>Fleurs</h3><a href="https://www.futura-sciences.com/sante/dossiers/medecine-bien-etre-sante-nature-1491/page/4/"> <img class="theme" src="assets/plantes.jpeg" alt="photo fleurs"/></a> </div>
+                        <div class="itemArticle"> <h3>Outfit</h3><a href="https://www.bonnegueule.fr/back-to-basics-le-guide-dachat-essentiel-de-votre-garde-robe-masculine/"> <img class="theme" src="assets/outfit.jpeg" alt="photo outfit"/></a> </div>
                     
                 </div>
             </section> <!--Rubrique 3 Care routine : sous categories (skincare, plantes, outfit )-->
 
-            <aside> <h2> Lieux d'activités</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6899709493823!2d4.853025715627852!3d45.777403179105846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eaeb185f2a45%3A0xef56b64bed8543c!2sParc%20de%20la%20T%C3%AAte%20d&#39;Or!5e0!3m2!1sfr!2sfr!4v1616063384003!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+            <aside> 
+                <div><h2> Lieux d'activités</h2></div>
+                <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6899709493823!2d4.853025715627852!3d45.777403179105846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eaeb185f2a45%3A0xef56b64bed8543c!2sParc%20de%20la%20T%C3%AAte%20d&#39;Or!5e0!3m2!1sfr!2sfr!4v1616063384003!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
             </aside>
 
-            
-                <!--<div id="map" style="border: 1px solid black;
-                width: 500px; height: 500px;
-                margin-left: 30px; margin-top: 30px;
-                float: left">
-                </div>-->
-
             <form action="/leads-subscribing-newsletter" method="post">
+                <div class="mail"> 
                 <div><label for="email">E-mail :</label> <input id="email" name="subscriber_email" type="email" /></div>
                 <div><button type="submit">S'abonner à la newsletter</button> </div>
+                </div> 
             </form> <!-- Bouton d'inscription a la newsletter-->
-
+        
            
          </main>
     <footer>
-     <!--en attente -->
+        <div class="flex-container2">
+
+            <div class="footer">
+
+                <h3>PARTENAIRES</h3>
+                <p>
+                    <a href="index.html" class ="partenaires">FOU-STACK</a>
+                    <a href="santé.physique.html" class ="partenaires">LA LIGUE DES JSTICIERS</a>
+                    <a href="bienetre.html" class ="partenaires">WILDERS</a>
+                    <a href="habitudes-alimentaires.html" class ="partenaires">LES GONES</a>
+                    <a href="vie-sociale.html" class ="partenaires">TORTUES BLUES ET NOIRES</a>
+                </p>
+            </div>
+
+            <div class="footer">
+                
+                    <h3>NOUS RETROUVER</h3>
+                <p> JAVA WARRIORS<br>
+                    WILD CODE SCHOOL<br>
+                    17 RUE DELANDINE<br>
+                    69002 LYON<br>
+                    javawarriors@>wildcodeschool.com<br>
+                    Tel: 06 40 95 24 24
+                </p>
+            </div>
+
+            <div class="footer">
+
+                
+                    <h3>RESEAUX SOCIAUX</h3>
+                <p>
+                    <img class="imgfoot" src="images/fb.png" alt="facebook link">
+                    <img class="imgfoot" src="images/twitter.png" alt="twitter link">
+                    <img class="imgfoot" src="images/insta.png" alt="insta link">
+                </p>
+
+
+
+            </div>
+
+        </div>
     </footer>
 <script src="bienetre.js"></script>        
 </body>
