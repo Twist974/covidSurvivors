@@ -8,9 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 /*--------------------------BARRE DE NAVIGATION------------------*/
 
@@ -196,66 +193,7 @@ textarea {
 }
 
 /*------------------QUISOMMESNOUS-------------*/
-<<<<<<< HEAD
-=======
 
-.quisommesnous{
-  
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  text-align: center;
-}
-
-.image2 {
- width: 200px;
- height: 300px;
-
-}
-
-.nous {
-  text-align: center;
-  margin: 20px;
-}
-
-.nom {
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  font-size: 30px;
-  width: auto;
-}
-
-/*-------------------SCROLLTOP---------------*/
-
-
-.to-top {
-  background: #DADD39;
-  position: fixed;
-  bottom: 16px;
-  right:32px;
-  width:50px;
-  height:50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size:32px;
-  color:#1f1f1f;
-  text-decoration: none;
-  opacity:0;
-  pointer-events: none;
-  transition: all .4s;
-}
-
-.to-top.active {
-  bottom:32px;
-  pointer-events: auto;
-  opacity:1;
-}
-
-/*---------------------------FOOTER-------------*/
->>>>>>> 4d48d5ec18971e6acd9ac7675df25217cf698ecb
 
 .quisommesnous {
   width: 60%;
@@ -312,11 +250,9 @@ textarea {
 /*---------------------------FOOTER-----------------------*/
 
 footer {
-<<<<<<< HEAD
-  background-color: #ec6969;
-=======
+
   background-color: #EC6969;
->>>>>>> 4d48d5ec18971e6acd9ac7675df25217cf698ecb
+
   height: 270px;
   margin-top: 50px;
   width: 100%;
@@ -346,11 +282,9 @@ footer {
   border-radius: 5px;
 }
 
-<<<<<<< HEAD
-.copy {
-=======
+
 .copy{
->>>>>>> 4d48d5ec18971e6acd9ac7675df25217cf698ecb
+
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -359,6 +293,83 @@ footer {
 }
 
 /* --------------------------RESPONSIVE---------------*/
+
+
+@media screen and (max-width:376px){
+ 
+.logo {
+  width: 100%;
+  height: 300px;
+}
+  
+h1{
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Chonburi', cursive;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+ 
+.flex-container{
+  flex-direction: column;  
+}
+
+.image1{
+  height:200px;
+  width: 80%;
+}
+p {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 80%;
+}
+
+h2{
+  margin-top: 20px;
+  font-size: 40px;
+  margin-bottom: 20px;
+
+}
+
+.quisommesnous {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-size: 20px;
+
+}
+
+.nous{
+  display: none;
+}
+
+form input{
+  width: 80%;
+}
+
+textarea {
+  width:80%
+}
+
+.flex-container2{
+  flex-direction: column;
+}
+
+.partenaires{
+  display:block;
+  text-align:center;
+}
+
+footer{
+  height:600px;
+}
+
+}
+
+
 
 /*---------------------PAGE HABITUDES ALIMENTAIRES-------------------- */
 /*-----------BODY HABITUDES ALIMENTAIRES--------*/
