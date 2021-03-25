@@ -800,7 +800,7 @@ select option:hover {
 /*---------------------PAGE VIE SOCIALE-------------------- */
 .logo1{
   width: 100%;
-  height: 200px;
+  height: 600px;
 }
 
 .sociable{
@@ -1073,24 +1073,13 @@ select option:hover {
   }
 
   .pVieSociale {
-    text-align: justify;
+    text-align: center;
     font-family: 'Chonburi', cursive;
-    margin: 0 auto;
+    margin-top: 0 30px;
     width: 80%;
     font-size: 13px;
   }
 
-  #photoFenetre {
-    display: inline-block;
-    margin-left: 60px;
-    border-radius: 7px;
-  }
-
-  #photoMontagne {
-    display: inline-block;
-    margin-left: 60px;
-    border-radius: 7px;
-  }
 
   .container5 {
     display: inline-block;
@@ -1100,7 +1089,8 @@ select option:hover {
   #imgGroupProtection {
     width: 80%;
     height: 200px;
-    margin-left: 20px;
+    display: block;
+    margin: 30px auto;
   }
 
   h5 {
@@ -1109,3 +1099,4 @@ select option:hover {
     margin:0;
     width: 100%;
   }
+}
