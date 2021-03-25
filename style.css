@@ -640,6 +640,14 @@ select option:hover {
   margin: auto;
 }
 
+h5 {
+  margin: 0 60px;
+  font-size: 30px;
+  color: grey;
+  border-bottom: solid 3px;
+  box-sizing: content-box;
+}
+
 .pVieSociale {
   text-align: justify;
   font-family: 'Chonburi', cursive;
@@ -651,12 +659,12 @@ select option:hover {
 #photoFenetre {
   float: left;
   margin: 20px 30px 30px 30px;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 #photoMontagne {
   margin: 0px 30px 30px 30px;
-  border-radius: 7px;
+  border-radius: 10px;
   float: right;
 }
 
@@ -668,6 +676,8 @@ select option:hover {
 #imgGroupProtection {
   width: 50%;
   height: 400px;
+  display: block;
+  margin: 0px auto;
 }
 
 /* --------------------------RESPONSIVE VIE SOCIALE--------------------*/
@@ -680,23 +690,23 @@ select option:hover {
   }
 
   .pVieSociale {
-    text-align: justify;
+    text-align: center;
     font-family: 'Chonburi', cursive;
-    margin: 0 auto;
+    margin-top: 0 30px;
     width: 80%;
     font-size: 13px;
   }
 
   #photoFenetre {
     display: inline-block;
-    margin-left: 60px;
-    border-radius: 7px;
+    margin 50px auto;
+    border-radius: 10px;
   }
 
   #photoMontagne {
     display: inline-block;
     margin-left: 60px;
-    border-radius: 7px;
+    border-radius: 10px;
   }
 
   .container5 {
@@ -707,12 +717,14 @@ select option:hover {
   #imgGroupProtection {
     width: 80%;
     height: 200px;
-    margin-left: 20px;
+    display: block;
+    margin: 30px auto;
   }
 
   h5 {
     display: inline-block;
     margin-left: 60px;
+    font-size: 19px;
   }
 
   .partenaires {
