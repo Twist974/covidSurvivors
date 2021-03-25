@@ -147,7 +147,7 @@ p {
 h2 {
   text-align: center;
   font-size: 50px;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 100px;
   font-family: 'Chonburi', cursive;
 }
@@ -298,423 +298,9 @@ body {
   scroll-behavior: smooth;
   }
   
-  /*--------------------------BARRE DE NAVIGATION------------------*/
-  nav {
-  display: flex;
-  }
   
-  nav a {
-  display: block;
-  width: 100%;
-  background-color: #dadd39;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 20px;
-  margin: 1px;
-  text-decoration: none;
-  color: black;
-  transition: all 0.3s ease;
-  font-family: 'Chonburi', cursive;
-  }
   
-  nav a:hover {
-  background-color: white;
-  transition: all 0.3s ease;
-  }
   
-  #checkbox {
-  display: none;
-  }
-  
-  #lab {
-  width: 30px;
-  height: 30px;
-  background: linear-gradient(
-  #fff 0%,
-  #fff 20%,
-  transparent 21%,
-  transparent 40%,
-  #fff 41%,
-  #fff 60%,
-  transparent 61%,
-  transparent 80%,
-  #fff 81%,
-  #fff 100%
-  );
-  margin: 4px;
-  display: none;
-  }
-  
-  @media all and (max-width: 960px) {
-  nav {
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  transform: translate(-1000px, 0);
-  transition: all 0.5s ease;
-  }
-  nav a {
-  width: auto;
-  }
-  #checkbox:checked + nav {
-  transform: translate(0, 0);
-  transition: all 0.5s ease;
-  }
-  #lab {
-  display: block;
-  }
-  }
-  
-  /* ------------------------LOGO-----------------------------*/
-  
-  .logo {
-  width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
-  /* -------------------------------PAGE D'ACCUEIL------------------------------------*/
-  /*--------------------------BODY--------------------------------*/
-  
-  h1 {
-  font-size: 100px;
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  }
-  
-  .flex-container {
-  display: flex;
-  justify-content: center;
-  }
-  
-  .page {
-  margin: 20px;
-  text-align: center;
-  }
-  .image1 {
-  background-color: blanchedalmond;
-  height: 300px;
-  width: 300px;
-  border: solid;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  border-radius: 20px;
-  }
-  
-  p {
-  width: 300px;
-  text-align: justify;
-  font-size: 20px;
-  height: auto;
-  }
-  
-  /*------------------Boutons -----------*/
-  
-  .button1 {
-  border: none;
-  color: black;
-  padding: 15px;
-  margin: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 20px;
-  transition-duration: 0.4s;
-  }
-  
-  .button1:hover {
-  color: white;
-  }
-  
-  /* --------------------FORMULAIRE---------------*/
-  
-  h2 {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 200px;
-  margin-bottom: 100px;
-  font-family: 'Chonburi', cursive;
-  }
-  
-  form {
-  text-align: center;
-  font-size: 20px;
-  color: black;
-  }
-  
-  form input {
-  width: 30%;
-  padding: 10px;
-  margin-top: 10px;
-  }
-  
-  textarea {
-  width: 30%;
-  padding: 10px;
-  margin-top: 10px;
-  height: 200px;
-  }
-  
-  .button2 {
-  background-color: white;
-  border: none;
-  color: black;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  transition-duration: 0.4s;
-  border-radius: 20px;
-  }
-  
-  .button2:hover {
-  color: red;
-  }
-  
-  /*------------------QUISOMMESNOUS-------------*/
-  .quisommesnous {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  text-align: center;
-  }
-  
-  .image2 {
-  width: 200px;
-  height: 300px;
-  }
-  
-  .nous {
-  text-align: center;
-  margin: 20px;
-  }
-  
-  .nom {
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  font-size: 30px;
-  width: auto;
-  }
-  
-  /*-------------------SCROLLTOP---------------*/
-  
-  .to-top {
-  background: #dadd39;
-  position: fixed;
-  bottom: 16px;
-  right: 32px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  color: #1f1f1f;
-  text-decoration: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.4s;
-  }
-  
-  .to-top.active {
-  bottom: 32px;
-  pointer-events: auto;
-  opacity: 1;
-  }
-  
-  /*---------------------------FOOTER-----------------------*/
-  footer {
-  background-color: #ec6969;
-  height: 270px;
-  margin-top: 50px;
-  width: 100%;
-  bottom: 0;
-  font-size: 20px;
-  }
-  
-  .flex-container2 {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  }
-  
-  .partenaires {
-  display: flex;
-  text-decoration: none;
-  color: black;
-  }
-  
-  .partenaires:hover {
-  color: white;
-  }
-  
-  .imgfoot {
-  height: 50px;
-  width: 50px;
-  border-radius: 5px;
-  }
-  
-  .copy {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 15px;
-  }
-  
-  /* --------------------------RESPONSIVE---------------------*/
-  
-  @media screen and (max-width: 376px) {
-  .logo {
-  width: 100%;
-  height: 300px;
-  }
-  
-  h1 {
-  font-size: 70px;
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  }
-  
-  .flex-container {
-  flex-direction: column;
-  }
-  
-  .image1 {
-  height: 200px;
-  width: 80%;
-  }
-  p {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  width: 80%;
-  }
-  
-  h2 {
-  margin-top: 20px;
-  font-size: 40px;
-  margin-bottom: 20px;
-  }
-  
-  .quisommesnous {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  font-size: 20px;
-  }
-  
-  .nous {
-  display: none;
-  }
-  
-  form input {
-  width: 80%;
-  }
-  
-  textarea {
-  width: 80%;
-  }
-  
-  .flex-container2 {
-  flex-direction: column;
-  }
-  
-  .partenaires {
-  display: block;
-  text-align: center;
-  }
-  
-  footer {
-  height: 600px;
-  }
-  }
-  
-  @media screen and (max-width: 376px) {
-  .logo {
-  width: 100%;
-  height: 300px;
-  }
-  
-  h1 {
-  font-size: 70px;
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  }
-  
-  .flex-container {
-  flex-direction: column;
-  }
-  
-  .image1 {
-  height: 200px;
-  width: 80%;
-  }
-  p {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  width: 80%;
-  }
-  
-  h2 {
-  margin-top: 20px;
-  font-size: 40px;
-  margin-bottom: 20px;
-  }
-  
-  .quisommesnous {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  font-size: 20px;
-  }
-  
-  .nous {
-  display: none;
-  }
-  
-  form input {
-  width: 80%;
-  }
-  
-  textarea {
-  width: 80%;
-  }
-  
-  .flex-container2 {
-  flex-direction: column;
-  }
-  
-  .partenaires {
-  display: block;
-  text-align: center;
-  }
-  
-  footer {
-  height: 600px;
-  }
-  }
   
   /*---------------------PAGE HABITUDES ALIMENTAIRES-------------------- */
   /*------------BODY HABITUDES ALIMENTAIRES-------------*/
@@ -920,14 +506,27 @@ body {
   }
   
   /*---------------------PAGE VIE SOCIALE-------------------- */
-  
-  #imgGroupeMasque {
-  width: 100%;
-  height: 400px;
-  border-radius: 0px 0px 20px 20px;
-  display: block;
-  margin: auto;
+  .logo1 {
+    width: 100%;
+    height: 650px;
   }
+  .sociable {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 60%;
+ }
+
+ .imggab {
+  
+  text-align: center;
+ }
+
+ .imgGroupe{
+   width: 300px;
+   height: 400px;
+   padding: 20px;
+ }
   
   .pVieSociale {
   text-align: justify;
@@ -949,14 +548,15 @@ body {
   float: right;
   }
   
-  .container5 {
-  display: inline-block;
-  justify-content: center;
+  h5{
+    font-size: 30px;
+    text-align: center;
   }
   
   #imgGroupProtection {
   width: 50%;
   height: 400px;
+  text-align: center;
   }
   
   /* --------------------------RESPONSIVE VIE SOCIALE--------------------*/
@@ -1014,8 +614,6 @@ body {
   }
   }
   
-  
-
 @media screen and (max-width: 376px) {
   .logo {
     width: 100%;
@@ -1048,8 +646,10 @@ body {
 
   h2 {
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
+    
+
   }
 
   .quisommesnous {
@@ -1171,7 +771,7 @@ select option:hover {
 /*-----------RESTAURATEUR HABITUDES ALIMENTAIRES----------- > */
 #imgHabitudesAlimentaires {
   width: 100%;
-  height: 400px;
+  height: 700px;
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -1196,7 +796,193 @@ select option:hover {
   cursor: not-pointer;
 }
 
-/* --------------------------RESPONSIVE HABITUDES ALIMENTAIRES---------------------*/
+
+/*---------------------PAGE VIE SOCIALE-------------------- */
+.logo1{
+  width: 100%;
+  height: 200px;
+}
+
+.sociable{
+  width: 80%;
+}
+
+.pVieSociale {
+  text-align: justify;
+  font-family: 'Chonburi', cursive;
+  margin: 50px auto 10px auto;
+  width: 50%;
+  font-size: 19px;
+}
+
+#photoFenetre {
+  float: left;
+  margin: 20px 30px 30px 30px;
+  border-radius: 7px;
+}
+
+#photoMontagne {
+  margin: 0px 30px 30px 30px;
+  border-radius: 7px;
+  float: right;
+}
+
+.container5 {
+  display: inline-block;
+  justify-content: center;
+}
+
+#imgGroupProtection {
+  width: 50%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* --------------------------RESPONSIVE--ACCUEIL---------------------*/
+  
+@media screen and (max-width: 376px) {
+  .logo {
+  width: 100%;
+  height: 300px;
+  }
+  
+  h1 {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Chonburi', cursive;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  }
+  
+  .flex-container {
+  flex-direction: column;
+  }
+  
+  .image1 {
+  height: 200px;
+  width: 80%;
+  }
+  p {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 80%;
+  }
+  
+  h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  }
+  
+  .quisommesnous {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-size: 20px;
+  }
+  
+  .nous {
+  display: none;
+  }
+  
+  form input {
+  width: 80%;
+  }
+  
+  textarea {
+  width: 80%;
+  }
+  
+  .flex-container2 {
+  flex-direction: column;
+  }
+  
+  .partenaires {
+  display: block;
+  text-align: center;
+  }
+  
+  footer {
+  height: 600px;
+  }
+  }
+  
+  @media screen and (max-width: 376px) {
+  .logo {
+  width: 100%;
+  height: 300px;
+  }
+  
+  h1 {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Chonburi', cursive;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  }
+  
+  .flex-container {
+  flex-direction: column;
+  }
+  
+  .image1 {
+  height: 200px;
+  width: 80%;
+  }
+  p {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 80%;
+  }
+  
+  h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  }
+  
+  .quisommesnous {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-size: 20px;
+  }
+  
+  .nous {
+  display: none;
+  }
+  
+  form input {
+  width: 80%;
+  }
+  
+  textarea {
+  width: 80%;
+  }
+  
+  .flex-container2 {
+  flex-direction: column;
+  }
+  
+  .partenaires {
+  display: block;
+  text-align: center;
+  }
+  
+  footer {
+  height: 600px;
+  }
+  }
+  /* --------------------------RESPONSIVE HABITUDES ALIMENTAIRES---------------------*/
 
 @media screen and (max-width: 376px) {
   h4 {
@@ -1276,55 +1062,6 @@ select option:hover {
     text-align: center;
   }
 
-  .partenaires {
-    display: block;
-    text-align: center;
-  }
-
-  footer {
-    height: 600px;
-  }
-}
-
-/*---------------------PAGE VIE SOCIALE-------------------- */
-
-#imgGroupeMasque {
-  width: 100%;
-  height: 400px;
-  border-radius: 0px 0px 20px 20px;
-  display: block;
-  margin: auto;
-}
-
-.pVieSociale {
-  text-align: justify;
-  font-family: 'Chonburi', cursive;
-  margin: 50px auto 10px auto;
-  width: 50%;
-  font-size: 19px;
-}
-
-#photoFenetre {
-  float: left;
-  margin: 20px 30px 30px 30px;
-  border-radius: 7px;
-}
-
-#photoMontagne {
-  margin: 0px 30px 30px 30px;
-  border-radius: 7px;
-  float: right;
-}
-
-.container5 {
-  display: inline-block;
-  justify-content: center;
-}
-
-#imgGroupProtection {
-  width: 50%;
-  height: 400px;
-}
 
 /* --------------------------RESPONSIVE VIE SOCIALE--------------------*/
 
@@ -1367,16 +1104,8 @@ select option:hover {
   }
 
   h5 {
-    display: inline-block;
-    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;;
+    margin:0;
+    width: 100%;
   }
-
-  .partenaires {
-    display: block;
-    text-align: center;
-  }
-
-  footer {
-    height: 600px;
-  }
-}
