@@ -1,4 +1,4 @@
-/* 1 -- PAGE D'ACCUEIL : SCROLL */
+/* 1 -- SCROLL */
 const toTop = document.querySelector('.to-top');
 
 window.addEventListener('scroll', () => {
@@ -25,6 +25,10 @@ function generer() {
 
     // je sélectionne un item en fonction du chiffre aléatoire
     tableauSelect[i].selectedIndex = myIndex;
+
+    // j'affiche le résultat de la fonction générer dans le texte HTML
+    const choiceSpan = document.getElementsByClassName('show-choice');
+    choiceSpan[i].innerHTML = tableauSelect[i].value;
   }
 }
 // quand je clique sur le bouton, je lance la fonction generer

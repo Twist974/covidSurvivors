@@ -1,153 +1,276 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HABITUDES ALIMENTAIRES</title>
-    <link href="style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HABITUDES ALIMENTAIRES</title>
+<link href="style.css" rel="stylesheet" />
+<link
+href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap"
+rel="stylesheet"
+/>
+<script src="https://kit.fontawesome.com/6f768d132a.js"></script>
+</head>
+<!-------------------------BODY---------------------------->
+<body>
+<!------------BARRE DE NAVIGATION--------------->
+<header>
+<label for="checkbox" id="lab"> </label>
+<input type="checkbox" id="checkbox" />
+<nav>
+<a href="index.html">ACCUEIL</a>
+<a href="sante.physique.html">SANTE PHYSIQUE</a>
+<a href="bienetre.html">BIEN ETRE</a>
+<a href="habitudes-alimentaires.html">HABITUDES ALIMENTAIRES</a>
+<a href="vie-sociale.html">VIE SOCIALE</a>
+</nav>
+</header>
 
-  <!--------------BARRE DE NAVIGATION--------------------->
+<!-------GENERATEUR DE PHRASE----------->
+<main>
+<article>
+<img src="assets/habitudes.png" id="imgHabitudesAlimentaires" />
+<section id="generateurRepas">
+<p class="pHab">
+La crise sanitaire du COVID-19 a changé nos habitudes alimentaires :
+confection de gâteaux fait-maisons, pénurie de pâtes, d'oeufs ou
+encore de farine, fermetures des restaurants, augmentation des
+livraisons à domicile. Nous vous proposons une alternative pour
+réussir à survivre jusqu'à la réouverture des restaurants. Découvrez
+notre Bouffotron et nos conseils pour bien vous alimenter en cette
+période si spéciale.
+</p>
+<h4>Pas d’idées pour le repas de ce jour ?</h4>
+<p class="pHab">
+Pas de panique. Génère un repas équilibré (ou pas si tu as de la
+chance) en utilisant le Bouffotron. Il te donne des idées, y a plus
+qu'à cuisiner !
+</p>
 
-  <label for="checkbox" id="lab"> </label>
-  <input type="checkbox" id="checkbox" />
-  <nav>
-    <a href="index.html">ACCUEIL</a>
-    <a href="www.google.fr">SANTE PHYSIQUE</a>
-    <a href="www.google.fr">BIEN ETRE</a>
-    <a href="habitudes-alimentaires.html">HABITUDE ALIMENTAIRE</a>
-    <a href="vie-sociale.html">VIE SOCIALE</a>
-  </nav>
+<center>
+<input
+type="button"
+id="GenererRepas"
+class="button2"
+value="Generer un repas !"
+/>
+</center>
 
-  <!-------------------------BODY---------------------------->
+<div class="flex-container-ha">
+<div class="alimentsBox">
+<select name="legumes" id="legSelect" size="8">
+<option value="carottes">Carottes</option>
+<option value="brocoli">Brocoli</option>
+<option value="poireau">Poireau</option>
+<option value="betterave">Betterave</option>
+<option value="laitue">Laitue</option>
+<option value="haricots verts">Haricots verts</option>
+<option value="epinards">Epinards</option>
+<option value="aubergine">Aubergine</option>
+</select>
+</div>
 
-  <body>
+<div class="alimentsBox">
+<select name="fruits" id="fruSelect" size="8">
+<option value="pomme">Pomme</option>
+<option value="banane">Banane</option>
+<option value="mangue">Mangue</option>
+<option value="orange">Orange</option>
+<option value="mandarine">Mandarine</option>
+<option value="kiwi">Kiwi</option>
+<option value="fraise">Fraises</option>
+<option value="poire">Poire</option>
+</select>
+</div>
 
-    <img class="habitudes" src="assets/habitudes.png">
-    
+<div class="alimentsBox">
+<select name="feculents" id="fecSelect" size="8">
+<option value="pain">Pain</option>
+<option value="pâtes">Pâtes</option>
+<option value="riz">Riz</option>
+<option value="pommes de terre">Pommes de terre</option>
+<option value="patates douces">Patates douces</option>
+<option value="galettes">Galettes</option>
+<option value="couscous">Couscous</option>
+<option value="lentilles">Lentilles</option>
+</select>
+</div>
 
-    <!-------GENERATEUR DE PHRASE----------->
-    <h2>Pas d’idées de repas aujourd'hui ?</h2>
-    <p>Pas de panique. Génère un repas équilibré (ou pas) !</p>
+<div class="alimentsBox">
+<select name="dessert" id="desSelect" size="8">
+<option value="compote">Compote</option>
+<option value="danette">Danette</option>
+<option value="pavlova">Pavlova</option>
+<option value="glace">Glace</option>
+<option value="eclair">Eclair</option>
+<option value="religieuse">Religieuse</option>
+<option value="paris-brest">Paris-brest</option>
+<option value="mousse au chocolat">Mousse au chocolat</option>
+</select>
+</div>
 
-    <div class="flex-container">
-      <td>
-        <select name="legumes" id="legSelect" size="8">
-          <option value="carottes" selected>carottes</option>
-          <option value="brocoli">brocoli</option>
-          <option value="poireau">poireau</option>
-          <option value="betterave">betterave</option>
-          <option value="laitue">laitue</option>
-          <option value="haricots verts">haricots verts</option>
-          <option value="épinards">épinards</option>
-          <option value="aubergine">aubergine</option>
-        </select>
+<div class="alimentsBox">
+<select name="fromages" id="froSelect" size="8">
+<option value="cervelle de canut">Cervelle de canut</option>
+<option value="babybel">Babybel</option>
+<option value="roquefort">Roquefort</option>
+<option value="saint marcellin">Saint marcellin</option>
+<option value="saint felicien">Saint félicien</option>
+<option value="camembert">Camembert</option>
+<option value="comte">Comté</option>
+<option value="pelardon">Pélardon</option>
+</select>
+</div>
 
-        <select name="fruits" id="fruSelect" size="8">
-          <option value="pomme" selected>pomme</option>
-          <option value="banane">banane</option>
-          <option value="mangue">mangue</option>
-          <option value="orange">orange</option>
-          <option value="mandarine">mandarine</option>
-          <option value="kiwi">kiwi</option>
-          <option value="fraise">fraise</option>
-          <option value="poire">poire</option>
-        </select>
+<div class="alimentsBox">
+<select name="proteines" id="proSelect" size="8">
+<option value="steak hache">steak haché</option>
+<option value="saumon">saumon</option>
+<option value="poulet rôti">poulet rôti</option>
+<option value="quenelles">quenelles</option>
+<option value="côte de porc">côte de porc</option>
+<option value="saucisses">saucisses</option>
+<option value="merguez">merguez</option>
+<option value="thon cuit">thon cuit</option>
+</select>
+</div>
+</div>
 
-        <select name="feculents" id="fecSelect" size="8">
-          <option value="pain" selected>pain</option>
-          <option value="pâtes">pâtes</option>
-          <option value="riz">riz</option>
-          <option value="pommes de terre">pommes de terre</option>
-          <option value="patates douces">patates douces</option>
-          <option value="galettes">galettes</option>
-          <option value="old el paso">old el paso</option>
-          <option value="lentilles">lentilles</option>
-        </select>
+<ul id="affichageBouffotron">
+<li>Légumes : <span class="show-choice"></span></li>
+<li>Fruits : <span class="show-choice"></span></li>
+<li>Féculents : <span class="show-choice"></span></li>
+<li>Dessert : <span class="show-choice"></span></li>
+<li>Fromages : <span class="show-choice"></span></li>
+<li>Protéines : <span class="show-choice"></span></li>
+</ul>
+</section>
 
-        <select name="dessert" id="desSelect" size="8">
-          <option value="compote" selected>compote</option>
-          <option value="danette">danette</option>
-          <option value="pavlova">pavlova</option>
-          <option value="glace">glace</option>
-          <option value="éclair">éclair</option>
-          <option value="religieuse">religieuse</option>
-          <option value="paris-brest">paris-brest</option>
-          <option value="mousse au chocolat">mousse au chocolat</option>
-        </select>
+<!-----------RESTAURATEUR----------->
+<section id="fastFood">
+<h4>Pas envie de cuisiner ?</h4>
+<p class="pHab">
+Ces restaurateurs restent disponible autour de chez toi ! Toujours
+fidèles au poste, tu peux toujours emporter de quoi te réconforter.
+</p>
 
-        <select name="fromages" id="froSelect" size="8">
-          <option value="cervelle de canut" selected>cervelle de canut</option>
-          <option value="babybel">babybel</option>
-          <option value="roquefort">roquefort</option>
-          <option value="saint marcellin">saint marcellin</option>
-          <option value="saint félicien">saint félicien</option>
-          <option value="camembert">camembert</option>
-          <option value="comté">comté</option>
-          <option value="pélardon">pélardon</option>
-        </select>
+<div class="zoomImg">
+<a href="https://www.mcdonalds.fr/" target="_blank"
+><img
+src="assets/mcdonald-998495_640.png"
+alt="logo mc do"
+class="imgRestaurant"
+/></a>
+<a href="https://www.burgerking.fr/" target="_blank"
+><img
+src="assets/burgerking.png"
+alt="logo burgerking"
+class="imgRestaurant"
+/></a>
+<a href="https://www.dominos.fr" target="_blank"
+><img
+src="assets/DOMINOSPIZZA.png"
+alt="pizza"
+class="imgRestaurant"
+/></a>
+<a href="https://www.kfc.fr/" target="_blank"
+><img src="assets/kfc.png" alt="logo kfc" class="imgRestaurant"
+/></a>
+<a href="https://www.sushishop.fr/" target="_blank"
+><img
+src="assets/sushishop.png"
+alt="logo kfc"
+class="imgRestaurant"
+/></a>
+</div>
+</section>
 
-        <select name="protéines" id="proSelect" size="8">
-          <option value="steak haché" selected>steak haché</option>
-          <option value="saumon">saumon</option>
-          <option value="poulet rôti">poulet rôti</option>
-          <option value="quenelles">quenelles</option>
-          <option value="côte de porc">côte de porc</option>
-          <option value="saucisses">saucisses</option>
-          <option value="merguez">merguez</option>
-          <option value="thon cuit">thon cuit</option>
-        </select>
-      </td>
-    </div>
+<section id="livraison">
+<h4>La flemme de bouger ?</h4>
+<p class="pHab">
+Tu peux toujours vous faire livrer ! Si tu es inquiet de sortir ou
+si tu t'es juste particulièrement habitué au confinement, choisis la
+facilité!
+</p>
 
-    <div id="bouton1">
-      <input type="button" id="GenererRepas" value="Générer un repas !" />
-    </div>
+<div class="zoomImg">
+<a href="https://deliveroo.fr/fr/" target="_blank"
+><img
+src="assets/deliveroo.jpg"
+alt="image deliveroo"
+class="imgRestaurant"
+/></a>
+<a href="https://www.ubereats.com/fr" target="_blank"
+><img
+src="assets/ubereats.jpg"
+alt="livraison ubereats"
+class="imgRestaurant"
+/></a>
+<a href="https://www.foodcheri.com/" target="_blank"
+><img
+src="assets/foodcheri.png"
+alt="livraison foodcheri"
+class="imgRestaurant"
+/></a>
+</div>
+</section>
+</article>
 
-    <!-----------RESTAURATEUR----------->
-    <h2>Pas envie de cuisiner ?</h2>
-    <p>Ces restaurateurs restent disponible autour de chez toi</p>
+<!---------------SCROLLTOP------------------>
 
-    <div class="lienRestaurateur">
-      <p>
-        <a href="https://www.mcdonalds.fr/" target="_blank"
-          ><img src="assets/mcdonalds" alt="mc do"
-        /></a>
-        <a href="https://www.burgerking.fr/" target="_blank"
-          ><img src="assets/burgerking.png" alt="burgerking"
-        /></a>
-        <a href="https://www.kfc.fr/" target="_blank"
-          ><img src="assets/kfc.png" alt="kfc"
-        /></a>
-      </p>
-    </div>
+<a href="#" class="to-top">
+<i class="fas fa-shield-virus"></i>
+</a>
+</main>
+<!------------------charger le code JS---------------------->
+<script src="index.js"></script>
 
-    <h2>La flemme de bouger ?</h2>
-    <p>Vous pouvez toujours vous faire livrer !</p>
+<!-------------Footer------------------------->
 
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.
-    </p>
+<footer>
+<section class="flex-container2">
+<div class="footer">
+<p></p>
+<h3>PARTENAIRES</h3>
+<a href="index.html" class="partenaires">FOU-STACK</a>
+<a href="sante.physique.html" class="partenaires"
+>LA LIGUE DES JSTICIERS</a
+>
+<a href="bienetre.html" class="partenaires">WILDERS</a>
+<a href="habitudes-alimentaires.html" class="partenaires"
+>LES GONES</a
+>
+<a href="vie-sociale.html" class="partenaires"
+>TORTUES BLUES ET NOIRES</a
+>
+</div>
 
-    <!------------------charger le code JS---------------------->
-    <script src="index.js"></script>
-  </body>
+<div class="footer">
+<p></p>
+<h3>NOUS RETROUVER</h3>
+JAVA WARRIORS<br />
+WILD CODE SCHOOL<br />
+17 RUE DELANDINE<br />
+69002 LYON<br />
+javawarriors@wildcodeschool.com<br />
+Tel: 06 40 95 24 24<br />
+</div>
 
-  <!-------------------------FOOTER---------------------------->
-  <footer>
-    <p>CONTACT</p>
-  </footer>
+<div class="footer">
+<p></p>
+<h3>RESEAUX SOCIAUX</h3>
+<a href="#"><img class="imgfoot" alt="#" src="assets/fb.png" /></a>
+<a href="#"
+><img class="imgfoot" alt="#" src="assets/twitter.png"
+/></a>
+<a href="#"><img class="imgfoot" alt="#" src="assets/insta.png" /></a>
+</div>
+</section>
+
+<p class="copy">&copy; 2021 Wild Code School</p>
+</footer>
+</body>
 </html>
+
+

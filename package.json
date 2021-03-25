@@ -17,5 +17,8 @@
   "scripts": {
     "test": "Blabla"
   },
-  "author": "Wilders"
+  "author": "Wilders",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
