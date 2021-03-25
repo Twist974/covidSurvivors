@@ -20,20 +20,20 @@
             <a href="habitudes-alimentaires.html">HABITUDE ALIMENTAIRE</a>
             <a href="vie-sociale.html">VIE SOCIALE</a>
           </nav>
-
+        
     </header>
 
         <main>
-            <div class="intro"> <h1 id="topTitle"> Bien-être </h1> <p> pour introduire la page <br > fonctionnement de la page explication rapide </p>
-            </div>  <!--Titre de la page et paragraphe d'intro -->
+            <h1 id="topTitle"> Bien-être </h1> 
+            <h3 id="intro1">Quelques suggestions pour vous liberer l'esprit de la routine quotidienne. </h3>
             
             <section class="container"> 
                 <h2 class="title"> Sports</h2>
                 <div class="article"> 
                    
-                         <div class="itemArticle"><h3>Yoga</h3><a href="https://www.youtube.com/watch?v=Z8In0I1WHFs"><img class="theme" src="assets/yoga.jpeg" alt="photo yoga"/></a> </div>
-                         <div class="itemArticle"><h3>Tai Chi</h3><a href="https://www.taijiquan.be/bienfaits"><img class="theme" src="assets/taichi.jpeg" alt="photo tai chi"/></a> </div>
-                         <div class="itemArticle"><h3>CrossFit</h3><a href="http://www.crossfit-gerland.com"><img class="theme" src="assets/crossfit.jpeg" alt="photo crossfit"/></a> </div>
+                         <div class="itemArticle"><h3>Yoga</h3><a href="https://www.youtube.com/watch?v=Z8In0I1WHFs"><img class="theme" src="assets/yoga.jpeg" alt="photo yoga"/></a> </div> 
+                        <div class="itemArticle"><h3>Tai Chi</h3><a href="https://www.taijiquan.be/bienfaits"><img class="theme" src="assets/taichi.jpeg" alt="photo tai chi"/></a> </div> 
+                        <div class="itemArticle"><h3>CrossFit</h3><a href="http://www.crossfit-gerland.com"><img class="theme" src="assets/crossfit.jpeg" alt="photo crossfit"/></a> </div> 
                     
                 </div> 
             </section> <!--Rubrique 1 Sports : sous categories (yoga, taichi, crossfit)-->
@@ -61,14 +61,17 @@
             </section> <!--Rubrique 3 Care routine : sous categories (skincare, plantes, outfit )-->
 
             <aside> 
-                <div><h2> Lieux d'activités</h2></div>
-                <div><iframe src="https://www.google.com/maps/d/embed?mid=16HE7wS3B3suHALcMsShhY4mFE6hwX85M" width="640" height="480"></iframe></div>
+                <div ><h2 class="title"> Lieux d'activités</h2></div>
+                <div><iframe class="map" src="https://www.google.com/maps/d/embed?mid=16HE7wS3B3suHALcMsShhY4mFE6hwX85M" width="640" height="480"></iframe></div>
             </aside>
 
-            <form action="/leads-subscribing-newsletter" method="post">
+            <form class="block" action="/leads-subscribing-newsletter" method="post">
                 <div class="mail"> 
-                <div><label for="email">E-mail :</label> <input id="email" name="subscriber_email" type="email" /></div>
-                <div><button type="submit">S'abonner à la newsletter</button> </div>
+                    <div>
+                         <label for="email">E-mail :</label> 
+                        <input  placeholder="exemple@email.com" id="email" name="subscriber_email" type="email" />
+                    </div>
+                    <div><button class="buttonSubmit" type="submit">S'abonner à la newsletter</button> </div>
                 </div> 
             </form> <!-- Bouton d'inscription a la newsletter-->
         
@@ -117,6 +120,6 @@
 
         </div>
     </footer>
-<script src="bienetre.js"></script>        
+   
 </body>
 </html>
