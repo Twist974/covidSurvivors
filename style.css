@@ -267,7 +267,8 @@ footer {
 }
 
 .partenaires {
-  display: flex;
+  display: block;
+  text-align: center;
   text-decoration: none;
   color: black;
 }
@@ -330,7 +331,6 @@ h2{
   margin-top: 20px;
   font-size: 40px;
   margin-bottom: 20px;
-
 }
 
 .quisommesnous {
@@ -365,6 +365,7 @@ textarea {
 
 footer{
   height:600px;
+  width: 100%;
 }
 
 }
