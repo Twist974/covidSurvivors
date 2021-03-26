@@ -33,18 +33,3 @@ function generer() {
 }
 // quand je clique sur le bouton, je lance la fonction generer
 btnGenererRepas.addEventListener('click', generer);
-
-
-
-
-/*--------------------SCROLLTOP---------------*/
-
-const toTop = document.querySelector(".to-top");
-
-window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 100) {
-    toTop.classList.add("active");
-  } else {
-    toTop.classList.remove("active");
-  }
-})

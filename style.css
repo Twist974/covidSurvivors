@@ -292,70 +292,66 @@ body {
   margin: 0;
   background-color: #88d8d3;
   background-size: cover;
-  }
-  
-  html {
+}
+
+html {
   scroll-behavior: smooth;
-  }
-  
-  
-  
-  
-  
-  /*---------------------PAGE HABITUDES ALIMENTAIRES-------------------- */
-  /*------------BODY HABITUDES ALIMENTAIRES-------------*/
-  h4 {
+}
+
+/*---------------------PAGE HABITUDES ALIMENTAIRES-------------------- */
+/*------------BODY HABITUDES ALIMENTAIRES-------------*/
+h4 {
   text-align: center;
   font-size: 50px;
   font-family: 'Chonburi', cursive;
-  }
-  
-  .pHab {
+}
+
+.pHab {
   text-align: justify;
   font-family: 'Chonburi', cursive;
   margin: 50px auto 10px auto;
   width: 80%;
   font-size: 19px;
-  }
-  
-  select {
+}
+
+select {
   width: 150px;
   padding: 10px;
   height: 250px;
   cursor: pointer;
   border-style: none;
-  }
-  
-  select:hover {
+}
+
+select:hover {
   color: #ec6f66;
-  }
-  
-  select option {
+}
+
+select option {
   background-color: white;
   color: gray;
   width: 100%;
   padding: 10px 15px;
   height: 15px;
   cursor: pointer;
-  }
-  
-  select option:hover {
+}
+
+select option:hover {
   width: 270px;
   background-color: #dadd39;
-  }
-  
-  .alimentsBox {
+}
+
+.alimentsBox {
   display: inline-block;
   box-sizing: border-box;
-  }
-  
-  .flex-container-ha {
+}
+
+.flex-container-ha {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
-  }
-  
-  #GenererRepas {
+}
+
+#GenererRepas {
   color: black;
   font-weight: bold;
   background-color: #dadd39;
@@ -364,14 +360,14 @@ body {
   margin: 20px;
   padding: 15px;
   text-align: center;
-  }
-  
-  #GenererRepas:hover {
+}
+
+#GenererRepas:hover {
   color: white;
   border: solid 2px grey;
-  }
-  
-  #affichageBouffotron {
+}
+
+#affichageBouffotron {
   border: solid 4px #ec6969;
   background-color: #ec6969;
   border-radius: 10px;
@@ -381,20 +377,20 @@ body {
   font-family: 'Chonburi', cursive;
   list-style: none;
   text-align: center;
-  }
-  
-  .show-choice {
+}
+
+.show-choice {
   color: #dadd39;
   text-transform: uppercase;
-  }
-  /*-----------RESTAURATEUR HABITUDES ALIMENTAIRES----------- > */
-  #imgHabitudesAlimentaires {
+}
+/*-----------RESTAURATEUR HABITUDES ALIMENTAIRES----------- > */
+#imgHabitudesAlimentaires {
   width: 100%;
   height: 400px;
   border-radius: 0px 0px 20px 20px;
-  }
-  
-  .imgRestaurant {
+}
+
+.imgRestaurant {
   width: 150px;
   height: 150px;
   box-sizing: border-box;
@@ -402,218 +398,217 @@ body {
   border: solid #ec6969 8px;
   padding: 10px;
   border-radius: 60px;
-  }
-  
-  .zoomImg {
+}
+
+.zoomImg {
   display: flex;
   justify-content: center;
-  }
-  
-  .zoomImg img:hover {
+}
+
+.zoomImg img:hover {
   width: 120px;
   height: 120px;
   cursor: not-pointer;
-  }
-  
-  /* --------------------------RESPONSIVE HABITUDES ALIMENTAIRES---------------------*/
-  
-  @media screen and (max-width: 376px) {
+}
+
+/* --------------------------RESPONSIVE HABITUDES ALIMENTAIRES---------------------*/
+
+@media screen and (max-width: 376px) {
   h4 {
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Chonburi', cursive;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Chonburi', cursive;
   }
-  
+
   .pHab {
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  margin-bottom: 20px;
-  width: 80%;
-  font-size: 15px;
+    text-align: center;
+    font-family: 'Chonburi', cursive;
+    margin-bottom: 20px;
+    width: 80%;
+    font-size: 15px;
   }
-  
+
   .alimentsBox {
-  display: none;
+    display: none;
   }
-  
+
   .flex-container-ha {
-  display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
   }
-  
+
   #GenererRepas {
-  color: black;
-  font-weight: bold;
-  background-color: #dadd39;
-  border-style: none;
-  border-radius: 5px;
-  padding: 15px;
-  text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #dadd39;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
   }
-  
+
   #GenererRepas:hover {
-  color: white;
-  border: solid 2px grey;
+    color: white;
+    border: solid 2px grey;
   }
-  
+
   #imgHabitudesAlimentaires {
-  width: 100%;
-  height: 200px;
-  border-radius: 0px 0px 20px 20px;
-  }
-  
-  .imgRestaurant {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  border: solid #ec6969 8px;
-  padding: 10px;
-  border-radius: 60px;
-  }
-  
-  .zoomImg {
-  display: inline-block;
-  justify-content: column;
-  margin-left: 40px;
-  }
-  
-  .zoomImg img:hover {
-  width: 120px;
-  height: 120px;
-  cursor: not-pointer;
-  }
-  
-  #affichageBouffotron {
-  border: solid 4px #ec6969;
-  background-color: #ec6969;
-  border-radius: 10px;
-  padding: 7px;
-  width: 280px;
-  font-family: 'Chonburi', cursive;
-  list-style: none;
-  text-align: center;
-  }
-  
-  .partenaires {
-  display: block;
-  text-align: center;
-  }
-  
-  footer {
-  height: 600px;
-  }
-  }
-  
-  /*---------------------PAGE VIE SOCIALE-------------------- */
-  .logo1 {
     width: 100%;
-    height: 650px;
+    height: 200px;
+    border-radius: 0px 0px 20px 20px;
   }
-  .sociable {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
-    width: 60%;
- }
 
- .imggab {
-  
+  .imgRestaurant {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid #ec6969 8px;
+    padding: 10px;
+    border-radius: 60px;
+  }
+
+  .zoomImg {
+    display: inline-block;
+    justify-content: column;
+    margin-left: 40px;
+  }
+
+  .zoomImg img:hover {
+    width: 120px;
+    height: 120px;
+    cursor: not-pointer;
+  }
+
+  #affichageBouffotron {
+    border: solid 4px #ec6969;
+    background-color: #ec6969;
+    border-radius: 10px;
+    padding: 7px;
+    width: 280px;
+    font-family: 'Chonburi', cursive;
+    list-style: none;
+    text-align: center;
+  }
+
+  .partenaires {
+    display: block;
+    text-align: center;
+  }
+
+  footer {
+    height: 600px;
+  }
+}
+
+/*---------------------PAGE VIE SOCIALE-------------------- */
+.logo1 {
+  width: 100%;
+  height: 650px;
+}
+.sociable {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 60%;
+}
+
+.imggab {
   text-align: center;
- }
+}
 
- .imgGroupe{
-   width: 300px;
-   height: 400px;
-   padding: 20px;
- }
-  
-  .pVieSociale {
+.imgGroupe {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+}
+
+.pVieSociale {
   text-align: justify;
   font-family: 'Chonburi', cursive;
   margin: 50px auto 10px auto;
   width: 50%;
   font-size: 19px;
-  }
-  
-  #photoFenetre {
+}
+
+#photoFenetre {
   float: left;
   margin: 20px 30px 30px 30px;
   border-radius: 7px;
-  }
-  
-  #photoMontagne {
+}
+
+#photoMontagne {
   margin: 0px 30px 30px 30px;
   border-radius: 7px;
   float: right;
-  }
-  
-  h5{
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  #imgGroupProtection {
+}
+
+h5 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#imgGroupProtection {
   width: 50%;
   height: 400px;
   text-align: center;
-  }
-  
-  /* --------------------------RESPONSIVE VIE SOCIALE--------------------*/
-  
-  @media screen and (max-width: 376px) {
+}
+
+/* --------------------------RESPONSIVE VIE SOCIALE--------------------*/
+
+@media screen and (max-width: 376px) {
   #imgGroupeMasque {
-  width: 100%;
-  height: 250px;
-  border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 0px 0px 20px 20px;
   }
-  
+
   .pVieSociale {
-  text-align: justify;
-  font-family: 'Chonburi', cursive;
-  margin: 0 auto;
-  width: 80%;
-  font-size: 13px;
+    text-align: justify;
+    font-family: 'Chonburi', cursive;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 13px;
   }
-  
+
   #photoFenetre {
-  display: inline-block;
-  margin-left: 60px;
-  border-radius: 7px;
+    display: inline-block;
+    margin-left: 60px;
+    border-radius: 7px;
   }
-  
+
   #photoMontagne {
-  display: inline-block;
-  margin-left: 60px;
-  border-radius: 7px;
+    display: inline-block;
+    margin-left: 60px;
+    border-radius: 7px;
   }
-  
+
   .container5 {
-  display: inline-block;
-  justify-content: center;
+    display: inline-block;
+    justify-content: center;
   }
-  
+
   #imgGroupProtection {
-  width: 80%;
-  height: 200px;
-  margin-left: 20px;
+    width: 80%;
+    height: 200px;
+    margin-left: 20px;
   }
-  
+
   h5 {
-  display: inline-block;
-  margin-left: 60px;
+    display: inline-block;
+    margin-left: 60px;
   }
-  
+
   .partenaires {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
   }
-  
+
   footer {
-  height: 600px;
+    height: 600px;
   }
-  }
-  
+}
+
 @media screen and (max-width: 376px) {
   .logo {
     width: 100%;
@@ -648,8 +643,6 @@ body {
     margin-top: 20px;
     font-size: 30px;
     margin-bottom: 20px;
-    
-
   }
 
   .quisommesnous {
@@ -681,15 +674,11 @@ body {
     text-align: center;
   }
 
-  footer{
-    height:600px;
+  footer {
+    height: 600px;
     width: 100%;
   }
-  
 }
-
-
-
 
 .pHab {
   text-align: justify;
@@ -796,14 +785,13 @@ select option:hover {
   cursor: not-pointer;
 }
 
-
 /*---------------------PAGE VIE SOCIALE-------------------- */
-.logo1{
+.logo1 {
   width: 100%;
   height: 600px;
 }
 
-.sociable{
+.sociable {
   width: 80%;
 }
 
@@ -839,150 +827,148 @@ select option:hover {
   margin-right: auto;
 }
 
-
-
 /* --------------------------RESPONSIVE--ACCUEIL---------------------*/
-  
+
 @media screen and (max-width: 376px) {
   .logo {
-  width: 100%;
-  height: 300px;
+    width: 100%;
+    height: 300px;
   }
-  
+
   h1 {
-  font-size: 70px;
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  margin-top: 100px;
-  margin-bottom: 200px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Chonburi', cursive;
+    margin-top: 100px;
+    margin-bottom: 200px;
   }
-  
+
   .flex-container {
-  flex-direction: column;
+    flex-direction: column;
   }
-  
+
   .image1 {
-  height: 200px;
-  width: 80%;
+    height: 200px;
+    width: 80%;
   }
   p {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 80%;
   }
-  
+
   h2 {
-  margin-top: 20px;
-  font-size: 40px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
-  
+
   .quisommesnous {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  font-size: 20px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 20px;
   }
-  
+
   .nous {
-  display: none;
+    display: none;
   }
-  
+
   form input {
-  width: 80%;
+    width: 80%;
   }
-  
+
   textarea {
-  width: 80%;
+    width: 80%;
   }
-  
+
   .flex-container2 {
-  flex-direction: column;
+    flex-direction: column;
   }
-  
+
   .partenaires {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
   }
-  
+
   footer {
-  height: 600px;
+    height: 600px;
   }
-  }
-  
-  @media screen and (max-width: 376px) {
+}
+
+@media screen and (max-width: 376px) {
   .logo {
-  width: 100%;
-  height: 300px;
+    width: 100%;
+    height: 300px;
   }
-  
+
   h1 {
-  font-size: 70px;
-  text-align: center;
-  font-family: 'Chonburi', cursive;
-  margin-top: 100px;
-  margin-bottom: 200px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Chonburi', cursive;
+    margin-top: 100px;
+    margin-bottom: 200px;
   }
-  
+
   .flex-container {
-  flex-direction: column;
+    flex-direction: column;
   }
-  
+
   .image1 {
-  height: 200px;
-  width: 80%;
+    height: 200px;
+    width: 80%;
   }
   p {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 80%;
   }
-  
+
   h2 {
-  margin-top: 20px;
-  font-size: 40px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
-  
+
   .quisommesnous {
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  font-size: 20px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 20px;
   }
-  
+
   .nous {
-  display: none;
+    display: none;
   }
-  
+
   form input {
-  width: 80%;
+    width: 80%;
   }
-  
+
   textarea {
-  width: 80%;
+    width: 80%;
   }
-  
+
   .flex-container2 {
-  flex-direction: column;
+    flex-direction: column;
   }
-  
+
   .partenaires {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
   }
-  
+
   footer {
-  height: 600px;
+    height: 600px;
   }
-  }
-  /* --------------------------RESPONSIVE HABITUDES ALIMENTAIRES---------------------*/
+}
+/* --------------------------RESPONSIVE HABITUDES ALIMENTAIRES---------------------*/
 
 @media screen and (max-width: 376px) {
   h4 {
@@ -1061,7 +1047,7 @@ select option:hover {
     list-style: none;
     text-align: center;
   }
-
+}
 
 /* --------------------------RESPONSIVE VIE SOCIALE--------------------*/
 
@@ -1080,7 +1066,6 @@ select option:hover {
     font-size: 13px;
   }
 
-
   .container5 {
     display: inline-block;
     justify-content: center;
@@ -1095,8 +1080,8 @@ select option:hover {
 
   h5 {
     padding-top: 20px;
-    padding-bottom: 20px;;
-    margin:0;
+    padding-bottom: 20px;
+    margin: 0;
     width: 100%;
   }
 }
