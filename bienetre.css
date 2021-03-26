@@ -203,8 +203,8 @@ aside {
 /*---------------------------F-O-O-T-E-R--------------------*/
 
 footer {
-	background-color: #EC6969;
-	height: 30%;
+	background-color: #ec6969;
+	height: 270px;
 	margin-top: 50px;
 	width: 100%;
 	bottom: 0;
@@ -218,18 +218,26 @@ footer {
   }
   
   .partenaires {
-	display: flex;
+	display: block;
+	text-align: center;
 	text-decoration: none;
 	color: black;
-   
   }
   
   .partenaires:hover {
-	color:white;
+	color: white;
   }
   
-  .imgfoot{
+  .imgfoot {
 	height: 50px;
 	width: 50px;
 	border-radius: 5px;
+  }
+  
+  .copy {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 15px;
   }
